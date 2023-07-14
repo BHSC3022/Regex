@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Validação, Busca e Restrição de Caracteres</title>
+  <script type="text/javascript" src="regex.html"></script>
+  <script type="text/javascript" src="busca.js"></script>
+  <script type="text/javascript" src="busca.js"></script>
+
+</head>
+<body>
+  <h1>Validação com Expressão Regular</h1>
+  <input type="text" id="inputString" placeholder="Digite uma string">
+  <button onclick="validarString()">Validar</button>
+  <p id="resultadoValidacao"></p>
+
+  <h1>Busca de Palavra</h1>
+  <input type="text" id="inputTexto" placeholder="Digite o texto">
+  <input type="text" id="inputPalavra" placeholder="Digite a palavra a buscar">
+  <button onclick="buscarPalavra()">Buscar</button>
+  <p id="resultadoBusca"></p>
+
+  <h1>Restrição de Caracteres</h1>
+  <input type="text" id="inputRestricao" placeholder="Digite um texto" data-tipo-caractere="maiusculas" onkeypress="permitirCaracteres(event)">
+
+  <script src="script.js"></script>
+  <script src="busca.js"></script>
+  <script src="restricao.js"></script>
+</body>
+</html>
